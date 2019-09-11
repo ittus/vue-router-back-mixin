@@ -10,11 +10,11 @@ export default {
     })
   },
   methods: {
-    backMixin_handleBack() {
+    backMixin_handleBack(fallBackUrl) {
       if (this.fromRoute) {
         this.$router.back()
       } else {
-        this.$router.push('/')
+        this.$router.push(fallBackUrl || '/')
       }
     }
   },
