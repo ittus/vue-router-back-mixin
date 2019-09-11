@@ -1,0 +1,31 @@
+{
+  "name": "vue-router-back-mixin",
+  "version": "0.0.2",
+  "description": "Back Mixin for Vue Router",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "homepage": "https://github.com/ittus/vue-router-back-mixin",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/ittus/vue-router-back-mixin.git"
+  },
+  "keywords": [
+    "vue",
+    "vue-router",
+    "mixin",
+    "back",
+    "back-button"
+  ],
+  "author": "Vu Minh Thang",
+  "license": "MIT",
+  "devDependencies": {
+    "vue": "2.x",
+    "vue-router": "3.x"
+  },
+  "peerDependencies": {
+    "vue": "2.x",
+    "vue-router": "3.x"
+  }
+}
